@@ -14,8 +14,8 @@ import "@pnp/sp/webs";
 import "@pnp/sp/site-users/web";
 import pnp from '@pnp/pnpjs';
 
-require('searchUIConfig');
-require('searchUI');
+// require('searchUIConfig');
+// require('searchUI');
 
 export interface ISearchResultsWebPartProps {
   description: string;
@@ -80,7 +80,7 @@ export default class SearchResultsWebPart extends BaseClientSideWebPart<ISearchR
     this.domElement.innerHTML = `
       <div class="${ styles.searchResults }">
         <div class="${ styles.container }">
-          <search-results-widget class="taiger_styles"></search-results-widget>
+          <div>Hello World</div>
  
         </div>
       </div>`;

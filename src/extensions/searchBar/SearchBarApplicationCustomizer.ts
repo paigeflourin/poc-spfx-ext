@@ -17,8 +17,8 @@ import "@pnp/sp/webs";
 import "@pnp/sp/site-users/web";
 import pnp from '@pnp/pnpjs';
 
-require('searchUIConfig');
-require('searchUI');
+// require('searchUIConfig');
+// require('searchUI');
 
 import { Authentication } from '../../helper/Authentication';
 
@@ -131,20 +131,7 @@ export default class SearchBarApplicationCustomizer
               <div class="${styles.top}">
                 
                 <div id=app class="${styles.searchbarImp}">
-                  <login-sp-widget 
-                      user-name="${this.properties.username}"
-                      pword="${this.properties.pw}"
-                      remember-me="${this.properties.rememberMe}"
-                      spsudo="${this.properties.sudo}"
-                  >
-                  </login-sp-widget>
-                  <search-bar-widget
-                    class="taiger_styles"
-                    style="display: block; margin:4px;"
-                    redirect-on-search="true"
-                    search-endpoint="https://taigers.sharepoint.com/SitePages/Test-Page-for-searchbar.aspx"
-                  >
-                  </search-bar-widget>
+                  <div> Hello World Customizer </div>
                 </div>
               </div>
                 
