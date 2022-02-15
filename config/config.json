@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "search-results-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/searchResults/SearchResultsWebPart.js",
+          "manifest": "./src/webparts/searchResults/SearchResultsWebPart.manifest.json"
+        }
+      ]
+    },
+    "search-bar-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/searchBar/SearchBarApplicationCustomizer.js",
+          "manifest": "./src/extensions/searchBar/SearchBarApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "searchUIConfig": {
+      "path": "./src/webparts/searchResults/searchui-lib/config.js",
+      "globalName": "SearchUIConfig"
+    },
+    "searchUI": {
+      "path": "./src/webparts/searchResults/searchui-lib/js/app.js",
+      "globalName": "SearchUI"
+    }
+  },
+  "localizedResources": {
+    "SearchResultsWebPartStrings": "lib/webparts/searchResults/loc/{locale}.js",
+    "SearchBarApplicationCustomizerStrings": "lib/extensions/searchBar/loc/{locale}.js"
+  }
+}

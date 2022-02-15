@@ -1,0 +1,70 @@
+{
+  "id": "9d2184f4-fde8-41f8-b31a-00a9e57f7e11",
+  "alias": "SearchResultsWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "SearchResults"
+      },
+      "description": {
+        "default": "SearchResults description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "SearchResults"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/dist/"
+    ],
+    "entryModuleId": "search-results-web-part",
+    "scriptResources": {
+      "search-results-web-part": {
+        "type": "path",
+        "path": "search-results-web-part_7a0e7f1f8c1a48a68ec1.js"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.12.1"
+      },
+      "SearchResultsWebPartStrings": {
+        "type": "path",
+        "path": "SearchResultsWebPartStrings_en-us_536e65149b0acf4d52c0043073b9fc59.js"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.12.1"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.12.1"
+      },
+      "searchUI": {
+        "type": "path",
+        "path": "searchUI_6e329929b077df368fe09e9b9c95e0c5.js",
+        "globalName": "SearchUI"
+      },
+      "searchUIConfig": {
+        "type": "path",
+        "path": "searchUIConfig_e9935c821bbe9a8a23f574987066def6.js",
+        "globalName": "SearchUIConfig"
+      }
+    }
+  }
+}
