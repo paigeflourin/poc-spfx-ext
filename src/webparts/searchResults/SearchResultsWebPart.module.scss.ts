@@ -1,16 +1,16 @@
 /* tslint:disable */
 require("./SearchResultsWebPart.module.css");
 const styles = {
-  searchResults: 'searchResults_0a16ddd2',
-  container: 'container_0a16ddd2',
-  row: 'row_0a16ddd2',
-  column: 'column_0a16ddd2',
-  'ms-Grid': 'ms-Grid_0a16ddd2',
-  title: 'title_0a16ddd2',
-  subTitle: 'subTitle_0a16ddd2',
-  description: 'description_0a16ddd2',
-  button: 'button_0a16ddd2',
-  label: 'label_0a16ddd2'
+  searchResults: 'searchResults_f10e006d',
+  container: 'container_f10e006d',
+  row: 'row_f10e006d',
+  column: 'column_f10e006d',
+  'ms-Grid': 'ms-Grid_f10e006d',
+  title: 'title_f10e006d',
+  subTitle: 'subTitle_f10e006d',
+  description: 'description_f10e006d',
+  button: 'button_f10e006d',
+  label: 'label_f10e006d'
 };
 
 export default styles;

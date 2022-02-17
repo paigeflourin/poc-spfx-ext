@@ -1,0 +1,1 @@
+{"version":3,"file":"Authentication.d.ts","sourceRoot":"","sources":["../../src/helper/Authentication.ts"],"names":[],"mappings":"AAGA,OAAO,cAAc,CAAC;AACtB,OAAO,wBAAwB,CAAC;AAMhC,qBAAa,cAAc;IAEd,aAAa,CAAC,WAAW,KAAA,GAAI,MAAM;IAUnC,sBAAsB,CAAC,UAAU,KAAA,EAAE,GAAG,KAAA,EAAE,EAAE,KAAA,GAAG,MAAM;CAU/D"}
